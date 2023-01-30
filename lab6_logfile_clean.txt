@@ -1,0 +1,185 @@
+I couldn't get the version you sent to work on my computer, but oh well haha shouldn't have waited until last day
+
+Script started on Thu 08 Dec 2022 08:04:32 PM EST
+[samuelbarnett@loki lab6]$ ./serv &
+[1] 16525
+[samuelbarnett@loki lab6]$ SERVER: right before while
+SERVER: right before structRead
+
+[samuelbarnett@loki lab6]$ ./client /home/COIS/3380/lab3/diplodocus.pdf 
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+Error writing struct bytes from client
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+SERVER: right before read
+in server while loop, bytes are 1024
+SERVER: right before structRead
+[samuelbarnett@loki lab6]$ exit
+exit
+
+Script done on Thu 08 Dec 2022 08:05:09 PM EST
