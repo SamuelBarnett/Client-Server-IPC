@@ -41,13 +41,9 @@ struct serverData
 
 typedef struct serverData serv;
 
-void print_msg(char mb[]);
-
 int main(int argc, char *argv[])
 {
     int fd = 0, done = 0, fileArg = 0, i, Clientfd = 0;
-    int mesg = 0;
-    char mesgbuf[BUFFER_SIZE];
     int nread = 0;
     char fileBuffer[BUFFER_SIZE];
     serv Data;
@@ -101,37 +97,6 @@ int main(int argc, char *argv[])
             exit(0);
         }
     }
-
-    // start opening for message to client
-    if ((Clientfd = open(CF, O_RDWR)) < 0)
-    {
-        perror(CF);
-        printf("Failed to open Server.client fifo for server to client messages.\n");
-        exit(1);
-    }
-    //waits for message from client.
-    while (!done)
-    {
-        if (mesg = read(Clientfd, mesgbuf, BUFFER_SIZE) < 0)
-        {
-            perror("Failed to read message");
-            exit(1);
-        }
-        print_msg(mesgbuf);
-    };
-    close(Clientfd);
     close(fd);
     return 0;
 };
-// from slides.
-void print_msg(char mb[])
-{
-    int i = 0;
-    printf("Msg: ");
-    while (mb[i] != '$')
-    {
-        putchar(mb[i]);
-        i++;
-    }
-    putchar('\n');
-} /* make_msg */

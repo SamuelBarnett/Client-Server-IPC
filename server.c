@@ -43,9 +43,6 @@ struct serverData
 
 typedef struct serverData serv;
 
-// send message function
-int sendmsg(int Clientfd);
-
 int main()
 {
     serv Data;
@@ -112,46 +109,8 @@ int main()
     }
     printf("at end of server code\n");
 
-    // sends message to CF fifo
-    sendmsg(Clientfd);
     // Closing
     close(Clientfd);
     close(fd);
     return 0;
 };
-/*======================================================================
-|
-|
-|   Function: sendmsg
-|
-|   Written by: Samuel Barnett - December 2022
-|
-|   Purpose: Sends message to client that the process has finished transfering files.
-|
-|
-|   Description of parameters:
-|    int Clientfd: pointer to opening client fifo.
-|
-|   Subroutines/libraries required:
-|      none.
-|
-|
-|------------------------------------------------------------------*/
-int sendmsg(int Clientfd)
-{
-    char msgbuf[BUFFER_SIZE];
-    // Opens client
-    if ((Clientfd = open(CF, O_WRONLY | O_NONBLOCK)) < 0)
-    {
-        perror(CF);
-        exit(1);
-    }
-
-    strncpy(msgbuf, "ALL DONE", sizeof(msgbuf));
-
-    if (write(Clientfd, msgbuf, BUFFER_SIZE) == -1)
-    {
-        printf("failed to send message\n");
-        exit(1);
-    }
-}
